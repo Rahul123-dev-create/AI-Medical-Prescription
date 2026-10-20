@@ -54,7 +54,7 @@ st.markdown(_CSS, unsafe_allow_html=True)
 # CONFIGURATION + HTTP TRANSPORT LAYER
 # =============================================================================
 
-API_BASE_URL = "http://localhost:8000"
+API_URL = "https://ai-medical-prescription.onrender.com"
 _API_TIMEOUT = httpx.Timeout(60.0, connect=10.0)
 
 
